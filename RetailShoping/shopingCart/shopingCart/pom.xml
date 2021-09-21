@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.reya.retail</groupId>
-	<artifactId>retailShop</artifactId>
+	<artifactId>shopingCart</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>retailShop</name>
-	<description>Demo project for retail shop server</description>
+	<name>shopingCart</name>
+	<description>Demo project for shopingCart client</description>
 	<properties>
 		<java.version>16</java.version>
 		<spring-cloud.version>2020.0.3</spring-cloud.version>
@@ -24,7 +24,7 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
 		</dependency>
 
 		<dependency>
